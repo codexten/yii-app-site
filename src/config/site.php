@@ -15,7 +15,7 @@ return [
             'translations' => [
                 'entero:site' => [
                     'class' => \yii\i18n\PhpMessageSource::class,
-                    'basePath' => '@eii/site/messages',
+                    'basePath' => '@codexten/yii/site/messages',
                 ],
             ],
         ],
@@ -23,7 +23,7 @@ return [
             'theme' => [
                 'pathMap' => [
                     '@app/views' => [
-                        '@eii/site/views',
+                        '@codexten/yii/site/views',
                     ],
                 ],
             ],
