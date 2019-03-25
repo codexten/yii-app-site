@@ -16,9 +16,11 @@
       "dev-master": "2.0.x-dev"
     },
     "config-plugin": {
+      "params": "config/params.php",
+      "core": "config/core.php",
       "site": [
         "$web",
-        "src/config/site.php"
+        "config/site.php"
       ]
     }
   }

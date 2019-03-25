@@ -28,5 +28,6 @@ return [
                 ],
             ],
         ],
+        'urlManager' => $core['components']['urlManagerSite'],
     ],
 ];
