@@ -7,5 +7,5 @@
  */
 
 return [
-    'siteUrl' => $_ENV['SITE_URL'],
+    'siteUrl' => @$_ENV['SITE_URL'],
 ];
