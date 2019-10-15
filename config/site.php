@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jomon
- * Date: 9/6/18
- * Time: 4:20 PM
- */
+
+/* @var $params array */
+
+use yii\i18n\PhpMessageSource;
 
 return [
     'runtimePath' => '@root/runtime/site',
@@ -14,7 +12,7 @@ return [
         'i18n' => [
             'translations' => [
                 'entero:site' => [
-                    'class' => \yii\i18n\PhpMessageSource::class,
+                    'class' => PhpMessageSource::class,
                     'basePath' => '@codexten/yii/site/messages',
                 ],
             ],

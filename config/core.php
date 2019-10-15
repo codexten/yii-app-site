@@ -1,14 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jomon
- * Date: 25/3/19
- * Time: 10:31 AM
- */
+
+/* @var $params array */
 
 return [
     'aliases' => [
         'siteUrl' => $params['siteUrl'],
+        'site' => '@root/public/site',
     ],
     'components' => [
         'urlManagerSite' => [
